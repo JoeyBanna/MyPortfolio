@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17" height="38" viewBox="0 0 17 38">
+  <g fill="none" fill-rule="evenodd" stroke="#FFF" stroke-width="2" transform="translate(1 8)">
+    <polyline class="arrow" id="arrow01" points="0 16 7.5 22 15 16"/>
+    <polyline class="arrow" id="arrow02" points="0 8 7.5 14 15 8"/>
+    <polyline class="arrow" id="arrow03" points="0 0 7.5 6 15 0"/>
+  </g>
+
+<style type="text/css" >
+    <![CDATA[    
+
+.arrow {
+  animation: flash 2s infinite;
+}
+
+#arrow03 {
+    animation-delay: -0.4s;
+    
+}
+#arrow02 {
+  animation-delay: -0.2s;
+}
+
+@keyframes flash {
+  0% {
+    opacity: 0;
+    transform: translateY(-5px)
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+    ]]>
+</style>
+
+
+</svg>
+
